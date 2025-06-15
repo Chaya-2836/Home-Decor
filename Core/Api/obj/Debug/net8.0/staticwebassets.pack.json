@@ -1,0 +1,489 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אביזרים מעוצבים\\דיספנסר לסבון נוזלי Porto - MALLE EGOKI.jpg",
+      "PackagePath": "staticwebassets\\אביזרים מעוצבים\\דיספנסר לסבון נוזלי Porto - MALLE EGOKI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אביזרים מעוצבים\\זוג מגשים מלבניים מאבן - דמוי טרוונטין.png",
+      "PackagePath": "staticwebassets\\אביזרים מעוצבים\\זוג מגשים מלבניים מאבן - דמוי טרוונטין.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אביזרים מעוצבים\\זוג מגשים עגולים מאבן - דמוי טרוונטין.png",
+      "PackagePath": "staticwebassets\\אביזרים מעוצבים\\זוג מגשים עגולים מאבן - דמוי טרוונטין.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אביזרים מעוצבים\\כוס למברשת שיניים Porto - MALLE EGOKI.jpg",
+      "PackagePath": "staticwebassets\\אביזרים מעוצבים\\כוס למברשת שיניים Porto - MALLE EGOKI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אביזרים מעוצבים\\כלי אבן עם מכסה דמוי טרוורטין.png",
+      "PackagePath": "staticwebassets\\אביזרים מעוצבים\\כלי אבן עם מכסה דמוי טרוורטין.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אביזרים מעוצבים\\מדף זכוכית 35 סמ זכוכית שקופה STYLO.jpg",
+      "PackagePath": "staticwebassets\\אביזרים מעוצבים\\מדף זכוכית 35 סמ זכוכית שקופה STYLO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אביזרים מעוצבים\\מדף רשת למקלחת פינתית כפולה מעוגלת STYLO.jpg",
+      "PackagePath": "staticwebassets\\אביזרים מעוצבים\\מדף רשת למקלחת פינתית כפולה מעוגלת STYLO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אביזרים מעוצבים\\מראה מגדילה פי 7 לקיר דו צדדית רוז גולד STYLO.jpg",
+      "PackagePath": "staticwebassets\\אביזרים מעוצבים\\מראה מגדילה פי 7 לקיר דו צדדית רוז גולד STYLO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אביזרים מעוצבים\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\אביזרים מעוצבים\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אקססוריז\\כלי אבן עם מכסה - דמוי טרוורטין.png",
+      "PackagePath": "staticwebassets\\אקססוריז\\כלי אבן עם מכסה - דמוי טרוורטין.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אקססוריז\\מארז אגרטלים ניוד.jpg",
+      "PackagePath": "staticwebassets\\אקססוריז\\מארז אגרטלים ניוד.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אקססוריז\\מארז אגרטלים צחור.jpg",
+      "PackagePath": "staticwebassets\\אקססוריז\\מארז אגרטלים צחור.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אקססוריז\\פמוט דמוי טרוורטין - שני גדלים.png",
+      "PackagePath": "staticwebassets\\אקססוריז\\פמוט דמוי טרוורטין - שני גדלים.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אקססוריז\\פמוט לשני נרות - אבן דמוי טרווטין.png",
+      "PackagePath": "staticwebassets\\אקססוריז\\פמוט לשני נרות - אבן דמוי טרווטין.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אקססוריז\\פמוטים גבוהים פס טקסט - לבן.png",
+      "PackagePath": "staticwebassets\\אקססוריז\\פמוטים גבוהים פס טקסט - לבן.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אקססוריז\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\אקססוריז\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\אקססוריז\\שק 50 ליטר שבבי עץ לעציץ.jpg",
+      "PackagePath": "staticwebassets\\אקססוריז\\שק 50 ליטר שבבי עץ לעציץ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\טקסטיל\\כרית בייסיק.jpg",
+      "PackagePath": "staticwebassets\\טקסטיל\\כרית בייסיק.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\טקסטיל\\כרית הארלי קופי.jpg",
+      "PackagePath": "staticwebassets\\טקסטיל\\כרית הארלי קופי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\טקסטיל\\כרית טדי סטרייפס.jpg",
+      "PackagePath": "staticwebassets\\טקסטיל\\כרית טדי סטרייפס.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\טקסטיל\\כרית מונה.jpg",
+      "PackagePath": "staticwebassets\\טקסטיל\\כרית מונה.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\טקסטיל\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\טקסטיל\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\ידיות לרהיטים\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\ידיות לרהיטים\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כורסאות וספסלים\\הדום אנגלה מרובע בז.png",
+      "PackagePath": "staticwebassets\\כורסאות וספסלים\\הדום אנגלה מרובע בז.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כורסאות וספסלים\\הדום לקסוס.jpg",
+      "PackagePath": "staticwebassets\\כורסאות וספסלים\\הדום לקסוס.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כורסאות וספסלים\\כורסא דרבי.jpg",
+      "PackagePath": "staticwebassets\\כורסאות וספסלים\\כורסא דרבי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כורסאות וספסלים\\כורסא מישל.png",
+      "PackagePath": "staticwebassets\\כורסאות וספסלים\\כורסא מישל.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כורסאות וספסלים\\כורסא מסתובבת לקסוס.jpg",
+      "PackagePath": "staticwebassets\\כורסאות וספסלים\\כורסא מסתובבת לקסוס.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כורסאות וספסלים\\כורסא עור ליאם.png",
+      "PackagePath": "staticwebassets\\כורסאות וספסלים\\כורסא עור ליאם.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כורסאות וספסלים\\כורסת רביצה ניקיטה.jpg",
+      "PackagePath": "staticwebassets\\כורסאות וספסלים\\כורסת רביצה ניקיטה.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כורסאות וספסלים\\כסא בר ויקטור.jpg",
+      "PackagePath": "staticwebassets\\כורסאות וספסלים\\כסא בר ויקטור.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כורסאות וספסלים\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\כורסאות וספסלים\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כסאות מטבח\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\כסאות מטבח\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\כריות\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\כריות\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מברשות לאסלה\\מברשת אסלה Zone Time.jpg",
+      "PackagePath": "staticwebassets\\מברשות לאסלה\\מברשת אסלה Zone Time.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מברשות לאסלה\\מברשת אסלה טוקיו.png",
+      "PackagePath": "staticwebassets\\מברשות לאסלה\\מברשת אסלה טוקיו.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מברשות לאסלה\\מברשת אסלה משולבת עץ.jpeg",
+      "PackagePath": "staticwebassets\\מברשות לאסלה\\מברשת אסלה משולבת עץ.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מברשות לאסלה\\מברשת אסלה תלויה ROUND מוברש.jpg",
+      "PackagePath": "staticwebassets\\מברשות לאסלה\\מברשת אסלה תלויה ROUND מוברש.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מברשות לאסלה\\סט אמבטיה פסים.jpg",
+      "PackagePath": "staticwebassets\\מברשות לאסלה\\סט אמבטיה פסים.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מברשות לאסלה\\סט ליסבון.jpg",
+      "PackagePath": "staticwebassets\\מברשות לאסלה\\סט ליסבון.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מברשות לאסלה\\פח אשפה סיטי 5 ליטר.jpg",
+      "PackagePath": "staticwebassets\\מברשות לאסלה\\פח אשפה סיטי 5 ליטר.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מברשות לאסלה\\פח ומברשת אסלה רטרו.jpg",
+      "PackagePath": "staticwebassets\\מברשות לאסלה\\פח ומברשת אסלה רטרו.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מברשות לאסלה\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\מברשות לאסלה\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מדפים\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\מדפים\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מזנונים\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\מזנונים\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מיבשי כלים\\מיבש כלים1.jpg",
+      "PackagePath": "staticwebassets\\מיבשי כלים\\מיבש כלים1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מיבשי כלים\\מיבש כלים2.jpg",
+      "PackagePath": "staticwebassets\\מיבשי כלים\\מיבש כלים2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מיבשי כלים\\מיבש כלים3.jpg",
+      "PackagePath": "staticwebassets\\מיבשי כלים\\מיבש כלים3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מיבשי כלים\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\מיבשי כלים\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מראות\\מראה אמורפית עץ אגוז לתלייה בלבד.jpg",
+      "PackagePath": "staticwebassets\\מראות\\מראה אמורפית עץ אגוז לתלייה בלבד.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מראות\\מראה אמורפית עץ צבע אגוז 3 מצבי תליה.jpg",
+      "PackagePath": "staticwebassets\\מראות\\מראה אמורפית עץ צבע אגוז 3 מצבי תליה.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מראות\\מראה חצי מעוגלת מסגרת מתכת זהב.png",
+      "PackagePath": "staticwebassets\\מראות\\מראה חצי מעוגלת מסגרת מתכת זהב.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מראות\\מראה חצי עגולה - מסגרת לבנה נקייה.png",
+      "PackagePath": "staticwebassets\\מראות\\מראה חצי עגולה - מסגרת לבנה נקייה.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מראות\\מראה עץ מנגו קשת לארס.jpg",
+      "PackagePath": "staticwebassets\\מראות\\מראה עץ מנגו קשת לארס.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מראות\\מראה קשת מלכותית 80X190 סמ.jpg",
+      "PackagePath": "staticwebassets\\מראות\\מראה קשת מלכותית 80X190 סמ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מראות\\מראת גוף אמורפית גבוהה עם מסגרת עץ אגוז.jpg",
+      "PackagePath": "staticwebassets\\מראות\\מראת גוף אמורפית גבוהה עם מסגרת עץ אגוז.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מראות\\מראת גוף אמורפית עם מסגרת עץ אגוז ורגל מתכת.jpg",
+      "PackagePath": "staticwebassets\\מראות\\מראת גוף אמורפית עם מסגרת עץ אגוז ורגל מתכת.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\מראות\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\מראות\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\סלי כביסה\\ארגז אחסון מעוצב.jpg",
+      "PackagePath": "staticwebassets\\סלי כביסה\\ארגז אחסון מעוצב.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\סלי כביסה\\סל כביסה קלוע.jpg",
+      "PackagePath": "staticwebassets\\סלי כביסה\\סל כביסה קלוע.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\סלי כביסה\\סל כביסה קש מרובע.jpg",
+      "PackagePath": "staticwebassets\\סלי כביסה\\סל כביסה קש מרובע.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\סלי כביסה\\סל כביסה קש.jpg",
+      "PackagePath": "staticwebassets\\סלי כביסה\\סל כביסה קש.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\סלי כביסה\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\סלי כביסה\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\סלסלות ירקות\\סלסלה1.jpg",
+      "PackagePath": "staticwebassets\\סלסלות ירקות\\סלסלה1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\סלסלות ירקות\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\סלסלות ירקות\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\עציצים\\אוליב טרי 110 סמ.png",
+      "PackagePath": "staticwebassets\\עציצים\\אוליב טרי 110 סמ.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\עציצים\\אוליב טרי 170 סמ.png",
+      "PackagePath": "staticwebassets\\עציצים\\אוליב טרי 170 סמ.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\עציצים\\אוליב טרי 240 סמ.png",
+      "PackagePath": "staticwebassets\\עציצים\\אוליב טרי 240 סמ.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\עציצים\\גאנגל טרי 210 סמ.png",
+      "PackagePath": "staticwebassets\\עציצים\\גאנגל טרי 210 סמ.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\עציצים\\גאנגל טרי 240 סמ.png",
+      "PackagePath": "staticwebassets\\עציצים\\גאנגל טרי 240 סמ.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\עציצים\\למון טרי 60 סמ.png",
+      "PackagePath": "staticwebassets\\עציצים\\למון טרי 60 סמ.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\עציצים\\פידל טרי 210 סמ.png",
+      "PackagePath": "staticwebassets\\עציצים\\פידל טרי 210 סמ.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\עציצים\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\עציצים\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\עציצים\\שק 50 ליטר שבבי עץ לעציץ.jpg",
+      "PackagePath": "staticwebassets\\עציצים\\שק 50 ליטר שבבי עץ לעציץ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\פחי אשפה\\סט פח ומברשת אסלה רוז.jpg",
+      "PackagePath": "staticwebassets\\פחי אשפה\\סט פח ומברשת אסלה רוז.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\פחי אשפה\\פח 30 ליטר מלבן לבן.jpg",
+      "PackagePath": "staticwebassets\\פחי אשפה\\פח 30 ליטר מלבן לבן.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\פחי אשפה\\פח 40 ליטר רגלית ניקל רחבה.jpg",
+      "PackagePath": "staticwebassets\\פחי אשפה\\פח 40 ליטר רגלית ניקל רחבה.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\פחי אשפה\\פח אשפה 3 ליטר נירוסטה.jpeg",
+      "PackagePath": "staticwebassets\\פחי אשפה\\פח אשפה 3 ליטר נירוסטה.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\פחי אשפה\\פח אשפה בשילוב עץ.jpeg",
+      "PackagePath": "staticwebassets\\פחי אשפה\\פח אשפה בשילוב עץ.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\פחי אשפה\\פח אשפה טוקיו.png",
+      "PackagePath": "staticwebassets\\פחי אשפה\\פח אשפה טוקיו.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\פחי אשפה\\פח פדל 3 ליטר Porto MALLE EGOKI.jpg",
+      "PackagePath": "staticwebassets\\פחי אשפה\\פח פדל 3 ליטר Porto MALLE EGOKI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\פחי אשפה\\פח פדל 5 ליטר Porto MALLE EGOKI.jpg",
+      "PackagePath": "staticwebassets\\פחי אשפה\\פח פדל 5 ליטר Porto MALLE EGOKI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\פחי אשפה\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\פחי אשפה\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\קונסולות\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\קונסולות\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות סלון\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\שולחנות סלון\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות סלון\\שולחן סלון1.jpg",
+      "PackagePath": "staticwebassets\\שולחנות סלון\\שולחן סלון1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות סלון\\שולחן סלון2.jpg",
+      "PackagePath": "staticwebassets\\שולחנות סלון\\שולחן סלון2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות סלון\\שולחן סלון3.jpg",
+      "PackagePath": "staticwebassets\\שולחנות סלון\\שולחן סלון3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות סלון\\שולחן סלון4.jpg",
+      "PackagePath": "staticwebassets\\שולחנות סלון\\שולחן סלון4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות סלון\\שולחן עץ מנגו זכוכית מעושנת (חום בהיר).jpg",
+      "PackagePath": "staticwebassets\\שולחנות סלון\\שולחן עץ מנגו זכוכית מעושנת (חום בהיר).jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות צד\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\שולחנות צד\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות צד\\שולחן עץ מלא עם רגל מעוגלת בגוון טבעי.png",
+      "PackagePath": "staticwebassets\\שולחנות צד\\שולחן עץ מלא עם רגל מעוגלת בגוון טבעי.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות צד\\שולחן עץ מלא עם רגל מתעגלת - גוון אגוז.png",
+      "PackagePath": "staticwebassets\\שולחנות צד\\שולחן עץ מלא עם רגל מתעגלת - גוון אגוז.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות צד\\שולחן צד בגימור אבן טבעית - עיצוב מעודן ונוכחות שקטה.png",
+      "PackagePath": "staticwebassets\\שולחנות צד\\שולחן צד בגימור אבן טבעית - עיצוב מעודן ונוכחות שקטה.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות צד\\שולחן צד עץ מלא וינטג' - גוון אגוז.png",
+      "PackagePath": "staticwebassets\\שולחנות צד\\שולחן צד עץ מלא וינטג' - גוון אגוז.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות צד\\שולחן צד עץ מלא עם רגל ישרה - גוון אגוז.png",
+      "PackagePath": "staticwebassets\\שולחנות צד\\שולחן צד עץ מלא עם רגל ישרה - גוון אגוז.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות צד\\שולחן צד עץ מלא עם רגל ישרה - גוון טבעי.png",
+      "PackagePath": "staticwebassets\\שולחנות צד\\שולחן צד עץ מלא עם רגל ישרה - גוון טבעי.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שולחנות צד\\שולחן צד עץ מלא תלת רגל - גוון אגוז.png",
+      "PackagePath": "staticwebassets\\שולחנות צד\\שולחן צד עץ מלא תלת רגל - גוון אגוז.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שטיחי כניסה\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\שטיחי כניסה\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שטיחים\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\שטיחים\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שטיחים\\שטיח וופל.png",
+      "PackagePath": "staticwebassets\\שטיחים\\שטיח וופל.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שטיחים\\שטיח ויסקוזה טימבר.jpg",
+      "PackagePath": "staticwebassets\\שטיחים\\שטיח ויסקוזה טימבר.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שטיחים\\שטיח סורי.png",
+      "PackagePath": "staticwebassets\\שטיחים\\שטיח סורי.png"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שטיחים\\שטיח סף קשת בענן.jpg",
+      "PackagePath": "staticwebassets\\שטיחים\\שטיח סף קשת בענן.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שטיחים\\שטיח פנדה פרווה.jpg",
+      "PackagePath": "staticwebassets\\שטיחים\\שטיח פנדה פרווה.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שידות צד\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\שידות צד\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\שעונים\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\שעונים\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תאורה\\מנורת דיזיין.jpg",
+      "PackagePath": "staticwebassets\\תאורה\\מנורת דיזיין.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תאורה\\מנורת קיר אלגנט.jpg",
+      "PackagePath": "staticwebassets\\תאורה\\מנורת קיר אלגנט.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תאורה\\מנורת קיר ליסבון ירוק.jpg",
+      "PackagePath": "staticwebassets\\תאורה\\מנורת קיר ליסבון ירוק.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תאורה\\מנורת קיר מלבנית.jpg",
+      "PackagePath": "staticwebassets\\תאורה\\מנורת קיר מלבנית.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תאורה\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\תאורה\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תמונות\\ראשי.jpg",
+      "PackagePath": "staticwebassets\\תמונות\\ראשי.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תמונות\\תמונות אבסטרקטיות בטקסטורה תלת - ממדית.jpg",
+      "PackagePath": "staticwebassets\\תמונות\\תמונות אבסטרקטיות בטקסטורה תלת - ממדית.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תמונות\\תמונות גלים אבסטרקטיים בטקסטורה תלת - ממדית.jpg",
+      "PackagePath": "staticwebassets\\תמונות\\תמונות גלים אבסטרקטיים בטקסטורה תלת - ממדית.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תמונות\\תמונת נוף יער קסום בגווני זהב וכחול.jpg",
+      "PackagePath": "staticwebassets\\תמונות\\תמונת נוף יער קסום בגווני זהב וכחול.jpg"
+    },
+    {
+      "Id": "C:\\Users\\This User\\Documents\\תכנות\\שנה ב\\Angular\\Project\\Core\\Api\\wwwroot\\תמונות\\תמונת קיר בינונית טבעות מבטון.png",
+      "PackagePath": "staticwebassets\\תמונות\\תמונת קיר בינונית טבעות מבטון.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Api.props",
+      "PackagePath": "build\\Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Api.props",
+      "PackagePath": "buildMultiTargeting\\Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Api.props",
+      "PackagePath": "buildTransitive\\Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
