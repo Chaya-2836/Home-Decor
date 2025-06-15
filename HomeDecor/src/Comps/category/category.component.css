@@ -1,0 +1,254 @@
+#departmentTitle {
+    line-height: normal;
+    text-align: center;
+    font-size: 65px;
+    font: normal normal normal 65px / 1.2em noto_sans_hebrew_light;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#departmentDetailes {
+    text-align: center;
+    font-size: 18px;
+    font: normal normal normal 18px / 1.4em noto_sans_hebrew_light;
+    width: 50%;
+    margin: auto;
+}
+
+:host {
+    direction: rtl;
+    display: block;
+    font-family: sans-serif;
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+/* פילטרים */
+.filter-section {
+    width: 220px;
+}
+
+.filter-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+    color: #333;
+}
+
+.count-inline {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.filter-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-list li {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    font-weight: 300;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 14px;
+}
+
+/* טווח מחירים */
+.price-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    margin-top: 6px;
+    padding: 0 4px;
+}
+
+/* עיצוב checkbox */
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    color: #000;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #999;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+.checkbox-wrapper input[type="checkbox"]::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    width: 4px;
+    height: 9px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked::after {
+    opacity: 1;
+}
+
+.checkbox-wrapper label {
+    cursor: pointer;
+    font-weight: 300;
+    user-select: none;
+}
+
+.filter-type {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.filter-section {
+    width: 220px;
+    position: sticky;
+    top: 12rem; 
+    align-self: flex-start;
+    z-index: 10;
+}
+.filter-type legend {
+    font-weight: 400;
+    color: rgb(83, 44, 22);
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+/* מוצרים */
+
+.product-section {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem; 
+}
+.product-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: box-shadow 0.2s ease;
+    background-color: white;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-description {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* עיצוב ngx-slider */
+:host ::ng-deep .ngx-slider {
+    margin-top: 1rem;
+    height: 25px;
+}
+
+:host ::ng-deep .ngx-slider .ngx-slider-bar {
+    background: #ccc;
+    height: 4px;
+    border-radius: 2px;
+}
+
+:host ::ng-deep .ngx-slider .ngx-slider-selection {
+    background: #444;
+    height: 4px;
+    border-radius: 2px;
+}
+
+:host ::ng-deep .ngx-slider .ngx-slider-pointer {
+    width: 12px;
+    height: 12px;
+    top: -4px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+:host ::ng-deep .ngx-slider .ngx-slider-pointer:focus {
+    outline: none;
+}
+
+:host ::ng-deep .ngx-slider .ngx-slider-bubble,
+:host ::ng-deep .ngx-slider .ngx-slider-tick {
+    display: none;
+}
+/* עיצוב כפתורי מיון */
+.sort-buttons {
+  margin-top: 1rem;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column; /* אחד מתחת לשני */
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  max-width: 200px; /* שולט על הרוחב */
+}
+
+.btn-group button {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  text-align: center;
+}
+
+.btn-group button:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-group button.active {
+  background-color: rgba(83, 44, 22, 0.2);
+  color: black;
+  border-color: rgba(83, 44, 22, 0.4);
+}
+
+
+

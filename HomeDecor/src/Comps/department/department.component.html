@@ -1,0 +1,55 @@
+@if (departmentDetailes) {
+
+<p id="departmentTitle">עיצוב {{departmentDetailes.name}}</p>
+<div id="departmentDetailes">
+    @for(t of departmentDetailes.description.split("\n");track t)
+    {
+    <p class="departmentDetailesP">{{t}}</p>
+    }
+
+</div>
+}
+
+<div id="categories">
+    @for(c of categories;track c)
+    {
+    <div class="categoriesDiv" [routerLink]="['/category', c.id]">
+        <img class="images" [src]="'https://localhost:7107/'+c.imageUrl">
+        <label class="categoriesName">{{c.name}}</label>
+    </div>
+    }
+</div>
+
+
+
+
+
+<div class="layout-container">
+    <aside class="filter-section">
+        <h3>
+            סינון לפי קטגוריה
+            <span class="count-inline">({{ productsToDisplay.length }} מוצרים)</span>
+        </h3>
+        <ul class="filter-list">
+            @for (c of categories; track c.id) {
+            <li>
+                <label>
+                    <input type="checkbox" [value]="c.id" [checked]="selectedCategoryIds.includes(c.id)"
+                        (change)="onCategoryToggle(c.id, $event)">
+                    {{ c.name }}
+                    <span class="category-count">({{ getProductCountForCategory(c.id) }})</span>
+                </label>
+            </li>
+            }
+
+        </ul>
+    </aside>
+
+    <main class="product-section">
+        @for(p of productsToDisplay; track p) {
+        @if (p.product) {
+        <product-details [productInStock]="p"></product-details>
+        }
+        }
+    </main>
+</div>

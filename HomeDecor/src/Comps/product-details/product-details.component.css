@@ -1,0 +1,119 @@
+.product-card {
+  width: 240px;
+  padding: 4px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  direction: rtl;
+  font-family: "Segoe UI", "Arial", "Tahoma", sans-serif;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: white;
+  margin: auto;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid transparent;
+  transition: border 0.3s ease;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.product-card:hover .product-image {
+  border: 1px solid #333;
+}
+
+.product-info {
+  margin-top: 8px;
+  text-align: right;
+}
+
+.product-title {
+  font-size: 16px;
+  color: #333;
+  margin: 4px 0 0;
+  min-height: 42px;
+  overflow: hidden;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #000;
+  margin: 4px 0;
+}
+
+.add-to-cart {
+  visibility: hidden;
+  opacity: 0;
+  height: 38px;
+  width: 100%;
+  margin: 10px 0 0;
+  background-color: black;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.product-card:hover .add-to-cart {
+  visibility: visible;
+  opacity: 1;
+}
+
+.add-to-cart:hover {
+  background-color: #555;
+}
+
+.add-to-cart:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.product-card-div {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: box-shadow 0.2s ease;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+
+.product-card-div:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.product-card-div.out-of-stock {
+  border: 2px solid #532c16;
+  box-shadow: 0 0 8px rgba(204, 0, 0, 0.25);
+}
+
+.product-card-div.out-of-stock::after {
+  content: "אזל\Aמהמלאי";
+  white-space: pre;
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  transform: translate(50%, -50%) rotate(-20deg);
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(83, 44, 22, 0.2);
+  pointer-events: none;
+  text-align: center;
+}
+
+.fly-image {
+  position: fixed;
+  transition: transform 0.6s ease-in-out, opacity 0.8s;
+  z-index: 2000;
+  pointer-events: none;
+}

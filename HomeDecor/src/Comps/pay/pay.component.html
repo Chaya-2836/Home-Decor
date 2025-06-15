@@ -1,0 +1,92 @@
+<div class="checkout-wrapper">
+
+  <h3 class="title">תשלום</h3>
+  <hr class="titleLine" />
+
+  <div class="quick-pay-section">
+    <div class="quick-pay-box">
+      <label class="quick-pay-title">תשלום מהיר</label>
+      <button class="gpay-button">
+        <img src="https://www.gstatic.com/instantbuy/svg/dark_gpay.svg" alt="G Pay" />
+      </button>
+    </div>
+  </div>
+
+  <div class="divider-wrapper">
+    <div class="divider-line"></div>
+    <div class="divider-label">או</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <form [formGroup]="theForm" (ngSubmit)="save()" class="details-form">
+    <h4 class="form-section-title">פרטי הלקוח/ה</h4>
+    <div class="form-group">
+      <label for="email">מייל *</label>
+      <input type="email" name="email" formControlName="email" required #email>
+      @if (GemailUser.invalid && (GemailUser.dirty || GemailUser.touched)) {
+      <div class="error-message">
+        <span class="error-icon">ⓘ</span>
+        @if (GemailUser.errors!['required']) {
+        שדה חובה
+        } @else if (GemailUser.errors!['invalidEmail']) {
+        כתובת מייל לא תקינה
+        } @else {
+        שגיאה
+        }
+      </div>
+      }
+    </div>
+
+    <div class="form-row">
+      <div class="form-group half-width">
+        <label for="firstName">שם פרטי *</label>
+        <input type="text" name="firstName" formControlName="firstName" required #firstName>
+        @if (GfirstName.invalid && (GfirstName.dirty || GfirstName.touched)) {
+        <div class="error-message">
+          <span class="error-icon">ⓘ</span>
+          @if (GfirstName.errors!['required']) {
+          שדה חובה
+          } @else {
+          שגיאה
+          }
+        </div>
+        }
+      </div>
+      <div class="form-group half-width">
+        <label for="lastName">שם משפחה *</label>
+        <input type="text" name="lastName" formControlName="lastName" required>
+        @if (GlastName.invalid && (GlastName.dirty || GlastName.touched)) {
+        <div class="error-message">
+          <span class="error-icon">ⓘ</span>
+          @if (GlastName.errors!['required']) {
+          שדה חובה
+          } @else {
+          שגיאה
+          }
+        </div>
+        }
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">טלפון *</label>
+      <input type="tel" name="phone" formControlName="phone" required>
+      @if (Gphone.invalid && (Gphone.dirty || Gphone.touched)) {
+      <div class="error-message">
+        <span class="error-icon">ⓘ</span>
+        @if (Gphone.errors!['required']) {
+        שדה חובה
+        } @else if (Gphone.errors!['invalidPhone']) {
+        טלפון לא תקין
+        } @else {
+        שגיאה
+        }
+      </div>
+      }
+    </div>
+
+    <div class="submit-wrapper">
+      <button type="submit" [disabled]="theForm.invalid" class="submit-button">להזמנה</button>
+    </div>
+  </form>
+</div>

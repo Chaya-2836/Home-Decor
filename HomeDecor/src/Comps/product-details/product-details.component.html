@@ -1,0 +1,14 @@
+<div class="product-card-div" [ngClass]="{ 'out-of-stock': productInStock.quantity === 0 }"
+>
+  <div class="product-card">
+    <img #productImg class="product-image" [src]="'https://localhost:7107/' + productInStock.product?.imageUrl"
+      alt="{{ productInStock.product?.name }}" [routerLink]="['/product', productInStock.id]"/>
+    <div class="product-info"  [routerLink]="['/product', productInStock.id]">
+      <p class="product-title">{{ productInStock.product?.name }}</p>
+      <p class="product-price">₪ {{ productInStock.product?.price?.toFixed(2) }}</p>
+    </div>
+    <button class="add-to-cart" [disabled]="productInStock.quantity === 0" (click)="addToCart(productImg)">
+      {{ productInStock.quantity === 0 ? 'אזל מהמלאי' : 'הוספה לסל' }}
+    </button>
+  </div>
+</div>

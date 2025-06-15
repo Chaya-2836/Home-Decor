@@ -1,0 +1,75 @@
+<div class="cart-container">
+    <h2 id="title">סל הקניות שלי</h2>
+    <hr id="line" />
+    <div class="cart-content">
+        <div class="cart-items">
+            <div>
+                @if (orderedItems.length === 0) {
+                <div class="empty-cart">
+                    הסל שלך נראה ריק מדי, למה שלא תזמין משהו?
+                </div>
+                } @else {
+                <div id="products">
+                    @for (item of orderedItems; track item.id) {
+                    <div class="cart-item">
+                        <img [src]="'https://localhost:7107/' + item.product!.product!.imageUrl"
+                            [alt]="item.product!.product!.name || 'מוצר'" />
+                        <div class="item-info">
+                            <h3>{{ item.product!.product!.name }}</h3>
+                            <p>{{ item.product!.product!.price | currency:'ILS' }}</p>
+                        </div>
+                        <div class="quantity-control">
+                            <button (click)="decreaseQuantity(item)" [disabled]="item.quantity<=1">-</button>
+                            <span>{{ item.quantity }}</span>
+                            <button (click)="increaseQuantity(item)"
+                                [disabled]="item.quantity >= (item.product.quantity ?? 0)">+</button>
+                        </div>
+                        <div class="item-total">
+                            {{ item.quantity * (item.product!.product!.price || 0) | currency:'ILS' }}
+                        </div>
+                        <button class="remove-button" (click)="removeItem(item.product.id!)">
+                            <i class="fa-regular fa-trash-alt"></i>
+                        </button>
+                    </div>
+                    <hr />
+                    }
+                </div>
+                }
+            </div>
+            <router-outlet></router-outlet>
+        </div>
+        @if (orderedItems.length > 0) {
+        <div class="cart-summary">
+            <h3>סיכום ההזמנה</h3>
+            <hr />
+            <div class="summary-row">
+                <span>סכום ביניים:</span>
+                <span>{{ getSubtotal() | currency:'ILS' }}</span>
+            </div>
+            <div class="summary-row">
+                <span>מע"מ (18%):</span>
+                <span>{{ getVat() | currency:'ILS' }}</span>
+            </div>
+            <div class="summary-row total-row">
+                <strong>סה"כ:</strong>
+                <strong>{{ getTotalPrice() | currency:'ILS' }}</strong>
+            </div>
+
+            <div id="Pay">
+                <button class="checkout-button" [routerLink]="['pay']">מעבר לתשלום</button>
+                <button class="google-pay-button">
+                    <img src="https://www.gstatic.com/instantbuy/svg/dark_gpay.svg" alt="G Pay" />
+                </button>
+
+                <div class="secure-payment">
+                    <i class="fa-solid fa-lock"></i> הליך תשלום מאובטח
+                </div>
+
+                <div class="thank-you">
+                    <i class="fa-solid fa-cart-shopping"></i> תודה שקנית <strong>HomeDecor</strong>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>

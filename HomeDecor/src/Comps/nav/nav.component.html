@@ -1,0 +1,26 @@
+<div id="navDiv">
+  <div id="firstDiv">
+    <img id="logo" src="logo.png" [routerLink]="['']">
+    <p id="adertisterText">
+      <!-- <label>קונים מראה אחת? השנייה ב15% הנחה! (לא בטוח)</label> -->
+       <label>חנות האונליין המובילה בארץ  ברכישת מוצרים משלימים לבית</label>
+      <br>
+      <label> קנייה בטוחה ומאובטחת | שירות לקוחות זמין</label>
+    </p>
+    <p [routerLink]="['shoppingCart']" id="cart"><i class="fa-solid fa-shopping-cart"></i>
+    <label id="countCartProducts">{{cs.cartItems.length}}</label></p>
+  </div>
+  <hr width="90%">
+  <div id="navButtons">
+    @for(d of DepartmentS.allDepartments; track $index){
+      <button
+        class="navButton"
+        [routerLink]="['/department', d.id]"
+        routerLinkActive="active-nav-button"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        {{ d.name }}
+      </button>
+    }
+  </div>
+</div>

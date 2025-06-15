@@ -1,0 +1,33 @@
+#home_main {
+    width: 101.5%;
+    margin-right: -1%;
+    margin-top: 1%;
+}
+
+#description {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#descriptionTitle {
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    font-size: 70px;
+    color: rgb(242, 242, 242);
+    font-size: 70px;
+    margin-bottom: 2%;
+}
+
+#descriptionAdd {
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    font-size: 35px;
+    color: rgb(242, 242, 242);
+}
+
+#homeDiv {
+    position: relative;
+    margin-top: -1%;
+}

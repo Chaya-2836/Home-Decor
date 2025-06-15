@@ -1,0 +1,61 @@
+<h1 id="departmentTitle">{{ category?.name }}</h1>
+<h3 id="departmentDetailes">{{ category?.description }}</h3>
+
+<div class="layout-container">
+  <aside class="filter-section">
+    <h3>
+      סינון ומיון
+      <span class="count-inline">({{ products.length }} מוצרים)</span>
+    </h3>
+    <ul class="filter-list">
+      <li>
+        <label>
+          טווח מחירים:
+          <ngx-slider [(value)]="minPrice" [(highValue)]="maxPrice" [options]="priceOptions"
+            (userChangeEnd)="applyFilters()"></ngx-slider>
+          <div class="price-labels">
+            <span>{{ maxPrice | shekel }}</span>
+            <span>{{ minPrice | shekel }}</span>
+          </div>
+        </label>
+      </li>
+
+      <li>
+        <fieldset class="filter-type">
+          <legend>סינון לפי סוג:</legend>
+          <div *ngFor="let t of types" class="checkbox-wrapper">
+            <input type="checkbox" [id]="t" [value]="t" (change)="onTypeChange($event)"
+              [checked]="selectedTypes.includes(t)">
+            <label [for]="t">{{ typeLabels[t] || t }}</label>
+          </div>
+        </fieldset>
+      </li>
+      <li class="sort-buttons">
+        <label>מיון לפי מחיר:</label>
+        <div class="btn-group">
+          <button type="button" [class.active]="!selectedSort" (click)="setSortOrder(undefined)">
+            ללא מיון
+          </button>
+          <button type="button" [class.active]="selectedSort === 'asc'" (click)="setSortOrder('asc')">
+            מהנמוך לגבוה
+          </button>
+          <button type="button" [class.active]="selectedSort === 'desc'" (click)="setSortOrder('desc')">
+            מהגבוה לנמוך
+          </button>
+
+        </div>
+      </li>
+
+
+
+    </ul>
+  </aside>
+
+  <main class="product-section">
+    @for(p of products; track p) {
+    @if (p.product) {
+    <product-details [productInStock]="p"></product-details>
+    }
+    }
+  </main>
+</div>

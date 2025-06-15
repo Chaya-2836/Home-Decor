@@ -1,0 +1,168 @@
+#departmentTitle {
+    line-height: normal;
+    text-align: center;
+    font-size: 65px;
+    font: normal normal normal 65px / 1.2em wfont_15cd78_6e9805ba59db45d1abd059c17f72d714, wf_6e9805ba59db45d1abd059c17, orig_noto_sans_hebrew_light;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#departmentDetailes {
+    text-align: center;
+    font-size: 18px;
+    font: normal normal normal 18px / 1.4em wfont_15cd78_6e9805ba59db45d1abd059c17f72d714, wf_6e9805ba59db45d1abd059c17, orig_noto_sans_hebrew_light;
+    width: 50%;
+    margin: auto;
+}
+
+.departmentDetailesP {
+    margin: 0%;
+}
+
+#categories {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoriesDiv {
+    width: min-content;
+    margin: 2.8%;
+    margin-bottom: 1.5%;
+    cursor: pointer;
+}
+
+.images {
+    width: 15vw;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.images:hover {
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.16), 0 8px 40px 0 rgba(0, 0, 0, 0.12);
+}
+
+.categoriesName {
+    font-family: wfont_15cd78_06c730e87eb44ca0a0f3239502ea4218, wf_06c730e87eb44ca0a0f323950, orig_noto_sans_hebrew_regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    cursor: pointer;
+}
+
+:host {
+    direction: rtl;
+    display: block;
+    font-family: sans-serif;
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    /* מרווח קטן יותר בין הסינון לכרטיסים */
+    margin-top: 2rem;
+    padding: 0 2rem;
+    margin-bottom: 2%;
+}
+
+.filter-section {
+    width: 220px;
+    position: sticky;
+    top: 12rem;
+    align-self: flex-start;
+    z-index: 10;
+}
+
+.filter-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+    color: #333;
+}
+
+.filter-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-list li {
+    margin-bottom: 0.5rem;
+    /* פחות רווח בין כל שורה */
+}
+
+.filter-list input[type="checkbox"] {
+    margin-left: 0.5rem;
+}
+
+/* המוצרים */
+.product-section {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 כרטיסים בשורה */
+    gap: 1rem;
+    /* המרווח בין הכרטיסים */
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-description {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.filter-list input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #999;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+    vertical-align: middle;
+}
+
+.filter-list input[type="checkbox"]:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+.filter-list input[type="checkbox"]::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    width: 4px;
+    height: 9px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.filter-list input[type="checkbox"]:checked::after {
+    opacity: 1;
+}
+
+.category-count {
+    font-size: 0.8rem;
+    color: #777;
+    margin-right: 4px;
+}
+
+.count-inline {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #888;
+}

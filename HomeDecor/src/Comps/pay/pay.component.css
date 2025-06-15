@@ -1,0 +1,160 @@
+.checkout-wrapper {
+  min-height: 30rem;
+  direction: rtl;
+  font-family: "Segoe UI", sans-serif;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.quick-pay-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.quick-pay-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  align-items: center;
+}
+
+.quick-pay-title {
+  position: absolute;
+  top: -0.75rem;
+  right: 9.7rem;
+  background: white;
+  padding: 0 0.5rem;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.gpay-button {
+  width: 94%;
+  background-color: black;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.gpay-button img {
+  display: block;
+  margin: 0 auto;
+  height: 24px;
+}
+
+.divider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem auto;
+  width: 90%;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider-label {
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+  white-space: nowrap;
+}
+
+.details-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-section-title {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.half-width {
+  flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.submit-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.submit-button {
+  padding: 0.75rem 3rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-right: 0.2rem;
+}
+
+.titleLine{
+margin-bottom: 5%;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+input.invalid {
+  border-color: #d32f2f;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.error-icon {
+  font-weight: bold;
+}

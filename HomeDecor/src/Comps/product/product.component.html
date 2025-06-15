@@ -1,0 +1,29 @@
+<div class="product-container">
+    <div class="product-image">
+        <img #productImg [src]="'https://localhost:7107/' + productInStock.product?.imageUrl" alt="product image" />
+    </div>
+
+    <div class="product-details">
+        <h1 class="product-title">{{ productInStock.product?.name }}</h1>
+        <div class="product-price">{{ productInStock.product?.price! | shekel }}</div>
+
+        <p class="product-description">
+            {{ productInStock.product?.description }}
+            <!-- <a class="more-info">למידע נוסף</a> -->
+        </p>
+
+        <label for="quantity" class="quantity-label">כמות *</label>
+
+        <div class="quantity-container">
+            <button (click)="increaseQuantity()" [disabled]="selectedQuantity >= (productInStock.quantity ?? 0)">+</button>
+            <div class="quantity-value">{{ selectedQuantity }}</div>
+            <button (click)="decreaseQuantity()" [disabled]="selectedQuantity <= 1">-</button>
+
+        </div>
+        <button (click)="addToCart(productImg)" class="add-to-cart" [ngClass]="{ 'out-of-stock': productInStock.quantity === 0 }" [disabled]="productInStock.quantity === 0">הוספה לסל הקניות</button>
+
+        <button class="google-pay">
+            <img src="https://www.gstatic.com/instantbuy/svg/dark_gpay.svg" alt="G Pay" />
+        </button>
+    </div>
+</div>

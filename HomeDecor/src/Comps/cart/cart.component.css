@@ -1,0 +1,211 @@
+.cart-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  padding-top: 0rem;
+  direction: rtl;
+  font-family: Arial, sans-serif;
+  min-height: 473px;
+}
+
+.empty-cart {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.cart-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 4rem;
+}
+
+.cart-items {
+  flex: 2;
+  min-width: 68%;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-left: 1rem;
+}
+
+.item-info {
+  flex: 2;
+  margin-right: 1rem;
+}
+
+.item-info h3 {
+  margin: 0 0 0.2rem 0;
+}
+
+.item-info p {
+  margin: 0;
+  color: #444;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.quantity-control button {
+  padding: 0.3rem 0.7rem;
+  font-size: 1rem;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quantity-control button:hover {
+  background-color: #d0d0d0;
+}
+
+.item-total {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: black;
+}
+
+.remove-button:hover {
+  color: #93301d;
+}
+
+/* סיכום הזמנה */
+.cart-summary {
+  flex: 1;
+  width: 15rem;
+  /* max-height: 100vh; */
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  height: 23rem;
+  position: sticky;
+  top: 16.5rem;
+}
+
+.cart-summary h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.total-row {
+  border-top: 1px solid #ccc;
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+}
+
+.checkout-button,
+.google-pay-button {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.checkout-button {
+  background-color: black;
+  color: white;
+}
+
+.google-pay-button {
+  background-color: black;
+  border: 1px solid black;
+  cursor: not-allowed;
+}
+
+/* .google-pay-button img {
+  height: 24px;
+} */
+
+.secure-payment {
+  margin-top: 1rem;
+  text-align: center;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.secure-payment i {
+  margin-left: 0.4rem;
+  color: black;
+}
+
+#Pay {
+  margin-top: 1.8rem;
+}
+
+#products {
+  max-height: 23rem;
+  overflow-y: auto;
+}
+
+.thank-you {
+  margin-top: 2rem;
+  text-align: center;
+  color: #444;
+  font-size: 1rem;
+}
+
+.thank-you i {
+  margin-left: 0.4rem;
+  color: black;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 0%;
+  padding-bottom: 1.1rem;
+  margin-top: 0%;
+  padding-top: 1.4rem;
+  position: sticky;
+  top: 11rem;
+  background-color: white;
+  z-index: 700;
+}
+
+#line {
+  margin: 0%;
+  position: sticky;
+  top: 15.2rem;
+  background-color: white;
+  margin-bottom: 1rem;
+  z-index: 700;
+}
